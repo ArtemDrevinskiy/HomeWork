@@ -5,11 +5,11 @@ import Foundation
 //Функція вищого порядку — функція, що приймає як аргументи інші функції або повертає іншу функцію як результат.
 // Example
 
-func squared(function : (Int, Int) -> Int, firstNumber : Int, secondNumber : Int) -> Int{
-    return function(firstNumber, secondNumber) * function(firstNumber, secondNumber)
+func squared(function: (Int, Int) -> Int, firstNumber: Int, secondNumber: Int) -> Int {
+     function(firstNumber, secondNumber) * function(firstNumber, secondNumber)
 }
 
-func maxNumber(firstNumber : Int, secondNumber : Int) ->Int {
+func maxNumber(firstNumber: Int, secondNumber: Int) -> Int {
     if firstNumber > secondNumber {
         return firstNumber
     } else {

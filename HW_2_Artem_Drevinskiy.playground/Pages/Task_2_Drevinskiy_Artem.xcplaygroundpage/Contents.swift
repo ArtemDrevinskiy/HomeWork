@@ -4,7 +4,7 @@ import Foundation
 
 // Task 2 Ферма Фибоначчи
 
-func countOfRabbitsIn(months: Int) -> Int {
+func countOfRabbitsInMonths(_ months: Int) -> Int {
     var rabbitsPairsLastMonth = 0
     var rabbitsPairsThisMonth = 1
     var rabbitsPairsNextMonth = 0
@@ -17,7 +17,7 @@ func countOfRabbitsIn(months: Int) -> Int {
     return rabbitsPairsThisMonth * 2
 }
 
-var countOfRabbitsForSale = countOfRabbitsIn(months: 5) - 2
+var countOfRabbitsForSale = countOfRabbitsInMonths(_: 5) - 2
 print("U can sell \(countOfRabbitsForSale) rabbits")
 
 //: [Next](@next)
