@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='Task_1_Drevinskiy_Artem'/>
+        <page name='Task_2_Drevinskiy_Artem'/>
+        <page name='Task_3_Drevinskiy_Artem'/>
+        <page name='Enhance_Task_1'/>
+        <page name='Enhance_task_2'/>
+    </pages>
+</playground>
